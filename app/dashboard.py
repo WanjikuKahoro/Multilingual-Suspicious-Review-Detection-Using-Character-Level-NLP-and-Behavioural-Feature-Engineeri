@@ -12,6 +12,7 @@ st.write("numpy:", numpy.__version__)
 st.write("scipy:", scipy.__version__)
 st.write("sklearn:", sklearn.__version__)
 st.write("joblib:", joblib.__version__)
+st.write("✅ dashboard.py started")
 
 # NumPy compatibility (optional)
 if not hasattr(np, "int"):

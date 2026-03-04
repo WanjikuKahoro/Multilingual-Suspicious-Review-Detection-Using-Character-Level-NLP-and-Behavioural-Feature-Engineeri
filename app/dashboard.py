@@ -7,6 +7,12 @@ import numpy as np
 from pathlib import Path
 from sklearn.utils.validation import check_is_fitted
 
+import sklearn, joblib, numpy, scipy
+st.write("numpy:", numpy.__version__)
+st.write("scipy:", scipy.__version__)
+st.write("sklearn:", sklearn.__version__)
+st.write("joblib:", joblib.__version__)
+
 # NumPy compatibility (optional)
 if not hasattr(np, "int"):
     np.int = int

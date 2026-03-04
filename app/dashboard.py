@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import sys
 import numpy as np
+from sklearn.utils.validation import check_is_fitted
 
 # 1. FIX NUMPY COMPATIBILITY
 # Re-adding attributes removed in newer NumPy versions to prevent crashes in older libraries

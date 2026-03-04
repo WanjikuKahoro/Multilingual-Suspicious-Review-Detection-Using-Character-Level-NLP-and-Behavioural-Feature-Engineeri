@@ -42,7 +42,7 @@ PROJECT_ROOT = BASE_DIR.parent   # go from app/ → project root
 
 @st.cache_resource
 def load_assets():
-    model_path = "model/model_clean.joblib"
+    model_path = "model/model_clean_132.joblib"
     thresh_path = "model/threshold.joblib"
 
     model = joblib.load(model_path)
